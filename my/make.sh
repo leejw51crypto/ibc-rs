@@ -1,0 +1,2 @@
+hermes keys restore chainmain-1 -m "shed crumble dismiss loyal latin million oblige gesture shrug still oxygen custom remove ribbon disorder palace addict again blanket sad flock consider obey popular"  -t 394 
+hermes keys restore cronos_777-1 -m "shed crumble dismiss loyal latin million oblige gesture shrug still oxygen custom remove ribbon disorder palace addict again blanket sad flock consider obey popular"  -t 60 
