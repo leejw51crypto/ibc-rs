@@ -416,6 +416,14 @@ define_error! {
                     e.chain_id, e.address, e.cause)
             },
 
+        UnknownAccountType
+            {
+                type_url: String
+            }
+            |e| {
+                format!("Failed to deserialize account of an unknown protobuf type: {0}",
+                    e.type_url)
+            },
     }
 }
 
