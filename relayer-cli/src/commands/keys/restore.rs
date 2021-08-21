@@ -47,6 +47,7 @@ impl KeyRestoreCmd {
             .find_chain(&self.chain_id)
             .ok_or_else(|| format!("chain '{}' not found in configuration file", self.chain_id))?;
 
+        print!("hdpath {:?}\n", self.hd_path);
         let hd_path = HDPath::from_str(&self.hd_path)
             .map_err(|_| format!("invalid derivation path: {}", self.hd_path))?;
 
