@@ -1,5 +1,5 @@
-hermes -c ./config.toml  keys restore applemint_9000-2 -m "$MYMNEMONICS"  -p "m/44'/60'/0'/0/0"
-hermes -c ./config.toml  keys restore pearmint_9000-6 -m "$MYMNEMONICS"  -p "m/44'/60'/0'/0/0"
+hermes -c ./config.toml  keys restore chainmain-1 -m "$MYMNEMONICS"  -p "m/44'/394'/0'/0/0"
+hermes -c ./config.toml  keys restore cronos_777-1 -m "$MYMNEMONICS"  -p "m/44'/60'/0'/0/0"
 
-hermes  -c config.toml keys list applemint_9000-2
-hermes  -c config.toml keys list pearmint_9000-6
+hermes  -c config.toml keys list chainmain-1
+hermes  -c config.toml keys list cronos_777-1
