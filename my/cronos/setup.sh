@@ -9,7 +9,7 @@ export LOGLEVEL="info"
 export TRACE="--trace"
 #export TRACE=""
 #export CHAINHOME=$HOME/.$CHAINID
-export CHAINHOME=/run/user/1000/pytest-of-$USER/pytest-5/cronos0/cronos_777-1/node0
+export CHAINHOME=/run/user/1000/pytest-of-$USER/pytest-8/cronos0/cronos_777-1/node0
 
 export ETHCONFIG=$CHAINHOME/config/config.toml
 export GENESIS=$CHAINHOME/config/genesis.json
